@@ -154,7 +154,7 @@ html {
     .card-body .head-section {
         margin: 1rem;
    }
-   img {
+   #card-img {
     border-radius: 20px 20px 0 0;
 }
 }
