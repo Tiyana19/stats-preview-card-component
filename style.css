@@ -17,7 +17,6 @@ html {
 }
 .card {
     background-color: hsl(244, 38%, 16%);
-    width: 70vw;
     border-radius: 25px;
 }
 .card-container {
@@ -50,6 +49,9 @@ html {
     text-align: center;
 }
 @media screen and (min-width: 700px) {
+    .card {
+        width: 75vw;
+    }
     .stat-table {
         display: grid;
         grid-template-rows: auto;
@@ -136,6 +138,7 @@ html {
         margin-top: 20px;
     }
     .card {
+        width: 50vw;
         height: 100%;
         margin: 30px;
     }
