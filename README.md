@@ -22,7 +22,7 @@ Users should be able to:
 ![Desktop](./images/screenshot.png)
 
 ### Links 
--Solution URL:()
+-Solution URL:(https://www.frontendmentor.io/solutions/stats-card-V7-qmW5CI)
 -Live Site URL:(https://tiyana19.github.io/stats-preview-card-component/)
 
 ## My process 
