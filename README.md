@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links 
 -Solution URL:()
--Live Site URL:()
+-Live Site URL:(https://tiyana19.github.io/stats-preview-card-component/)
 
 ## My process 
 
@@ -47,7 +47,7 @@ I still need to learn lot of things. few of them are position, flexbox propertie
 ## Author 
 
 - Tinker 
-- Frontend Mentor - []()
+- Frontend Mentor - [@Tiyana19](https://www.frontendmentor.io/profile/Tiyana19)
 
 
 
