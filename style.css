@@ -1,8 +1,11 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
+
 html {
     box-sizing: border-box;
 }
@@ -18,7 +21,8 @@ main {
     background-color: hsl(233, 47%, 7%);
     color: hsl(0, 0%, 100%);
 }
-                /* CARD STYLESHEET */
+
+/* CARD STYLESHEET */
 header {
     width: 50%;
     background-color: hsl(244, 38%, 16%);
@@ -27,18 +31,22 @@ header {
     /* transition: all .3s linear; */
     animation: card 1.5s ease-in 1.5s forwards;
 }
+
 @keyframes card {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
-                        /* Img section */
+
+/* Img section */
 .desktop-img {
     display: none;
 }
+
 .mobile-img {
     display: block;
     width: 100%;
@@ -48,12 +56,13 @@ header {
     object-fit: cover;
     opacity: .75;
 }
+
 .img-section {
     background-color: #aa5cdb;
     border-radius: 10px 10px 0 0;
 }
 
-                        /* text section */
+/* text section */
 .text-section {
     display: flex;
     flex-direction: column;
@@ -62,6 +71,7 @@ header {
     width: 100%;
     padding: 1rem 2.5rem;
 }
+
 h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -84,26 +94,32 @@ header p {
     gap: 1rem;
     margin: 2rem 0;
 }
+
 .numbers h2 {
     color: hsl(0, 0%, 100%);
     font-size: 1.8rem;
 }
+
 .numbers p {
     text-transform: uppercase;
     margin-top: 0.45rem;
 }
 
-                /* Media Query */
-@media (width > 1025px) {
+/* Media Query */
+
+@media (width > 1024px) {
     header {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        width: 60%;
+        width: 70rem;
+        height: 30rem;
     }
+
     .mobile-img {
         display: none;
     }
+
     .desktop-img {
         display: block;
         width: 100%;
@@ -113,31 +129,37 @@ header p {
         object-fit: cover;
         opacity: .75;
     }
+
     .img-section {
         border-radius: 0 10px 10px 0;
     }
+
     .text-section {
         height: 100%;
         width: 50%;
         padding: 4rem;
         text-align: start;
     }
+
     h1 {
         font-size: 2.5rem;
     }
+
     .paragraph {
         margin: 2rem 4rem 0rem 0;
         line-height: 1.6;
         font-size: 1.1rem;
     }
+
     .numbers {
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
-    
+
 }
-                /* Footer stylesheet */
+
+/* Footer stylesheet */
 footer {
     position: absolute;
     bottom: 0;
